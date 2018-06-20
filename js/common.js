@@ -10,6 +10,10 @@ $(function(){
 
 });
 
+var app = {
+	baseUrl : 'http://fullstack.net.cn:3000'
+	
+}
 
 
 
