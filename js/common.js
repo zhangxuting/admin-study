@@ -16,7 +16,7 @@ var app = {
 }
 
 
-
+$.ajaxSetup({crossDomain: true, xhrFields: {withCredentials: true}});
 
 $.fn.serializeToJson = function(){
 	var formAry = this.serializeArray();
